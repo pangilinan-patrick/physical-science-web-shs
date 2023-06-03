@@ -1,3 +1,19 @@
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 .mainrow {
   padding: 4em 10em 5em 10em;
   background-image: url("imgs/topic.jpg");
