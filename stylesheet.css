@@ -236,3 +236,7 @@
   background-color: red;
   border-color: brown;
 }
+
+.para-margin-30 {
+  margin: 0 30em 0 30em;
+}
