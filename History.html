@@ -1,67 +1,98 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Physical Science | History</title>
-		<link rel="stylesheet" href ="bootstrap.css">
-		<link rel="stylesheet" href ="stylesheet.css">
-		<link rel="shortcut icon" href="imgs/atomlogo22.png">
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
-	
-	<!-- nav -->
-	
-	<nav>
-		<ul>
-			<a href="home.html"><img src = "imgs/atomlogo22.png" width="55" style="float:left; margin-left:0.7em;"></a>
-			<li><a href="Home.html">Home</a></li>
-			<li><a href="Topics.html">Topics</a></li>
-			<li><a style="color:brown;" href="History.html">History</a></li>
-			<li><a href="About.html">About</a></li>
-			
-			<li style="float:right;"><a href="Others.html">Others</a></li>
-			<li style="float:right;"><a href="Sources.html">Sources</a></li>
-		</ul>
-	</nav>
-	
-	<!-- Body -->
-	
-	<body>
-		<div class="mainrow">
-		
-			<p id="maintitle" class="fade-in one" style="text-align:center;">History<p>
-			
-			<div id="mainp" class="fade-in two" style="margin:1em 15em 2em 15em; text-align: center;">
-				<p>This timeline was made as another project in Physical Science, which is all about the scientists who contributed to the further development of the knowledge on atoms.</p>
-			</div>
-			
-			<img class="movedown atom" style="display:block; margin:auto;"src="imgs/history.png">
-			
-		</div>
-		
-	</body>
-	
-	<!-- Footer -->
-	
-	<div class="footer">
-	<a href="nc.html">
-		<img style="float:right;" height="35" src="imgs/social/fb.png">
-		<img style="float:right; margin-right:1em;" height="35" src="imgs/social/tw.png">
-		<img style="float:right; margin-right:1em;" height="35" src="imgs/social/yt.png">
-	</a>
-		
-		<ul>
-			<li><a href="Contact.html">Contact</a></li>
-			<li><a href="About.html">About</a></li>
-		</ul>
-		
-		<div class="fp">
-			Website created with the utmost care by Patrick Pangilinan, Jonas Sandoval and Kim Jeiro Lumalang.
-		</div>
-		
-		<div class="fp">
-			Currently v1.1. Code licensed BEC, docs CC by BEC Media Group&copy;
-		</div>
-	</div>
-	
+  <head>
+    <title>Physical Science | History</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="shortcut icon" href="imgs/atomlogo22.png" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- For Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <!-- nav -->
+  <nav class="navbar navbar-expand-lg bg-black sticky-top ps-2">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="imgs/atomlogo22.png" width="55" />
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav fw-bold">
+          <li class="nav-item me-1">
+            <a class="nav-link active text-white" aria-current="page" href="#"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item me-1">
+            <a class="nav-link text-white" href="Topics.html">Topics</a>
+          </li>
+          <li class="nav-item me-1">
+            <a class="nav-link text-white" href="History.html">History</a>
+          </li>
+          <li class="nav-item me-1">
+            <a class="nav-link text-white" href="About.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Body -->
+
+  <body>
+    <div class="py-5">
+      <p class="fade-in one text-center main-title">History</p>
+
+      <div id="mainp" class="fade-in two text-center">
+        <p class="mx-5 px-5 mb-5">
+          This timeline was made as another project in Physical Science, which
+          is all about the scientists who contributed to the further development
+          of the knowledge on atoms.
+        </p>
+      </div>
+
+      <div class="d-flex justify-content-center">
+        <img class="movedown atom" src="imgs/history.png" />
+      </div>
+    </div>
+  </body>
+
+  <!-- Footer -->
+  <div class="footer">
+    <a href="nc.html">
+      <img class="float-end me-4" height="35" src="imgs/social/fb.png" />
+      <img class="float-end me-4" height="35" src="imgs/social/tw.png" />
+      <img class="float-end me-4" height="35" src="imgs/social/yt.png" />
+    </a>
+
+    <nav class="navbar navbar-expand-lg">
+      <ul class="navbar-nav fw-bold">
+        <li class="nav-item me-1">
+          <a class="nav-link text-white" href="Contact.html">Contact</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link text-white" href="About.html">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="text-secondary">
+      Website created with the utmost care by Patrick Pangilinan, Jonas Sandoval
+      and Kim Jeiro Lumalang.
+    </div>
+
+    <div class="text-secondary">Licensed under GPL-3.0-or-later.</div>
+  </div>
 </html>
